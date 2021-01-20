@@ -5,7 +5,6 @@ class CredentialFactory:
         self.path = path
 
     def loadYaml(self):
-        
         with open(self.path, 'r') as stream:
             try:
                 creds = yaml.safe_load(stream)

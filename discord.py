@@ -6,7 +6,7 @@ class DiscordBot(PostBot):
         self.password = secret
         self.
 
-    def post(self, header, images):
+    def post(self, description, images):
         raise NotImplementedError
 
     def __str__(self):
